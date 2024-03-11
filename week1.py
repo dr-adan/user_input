@@ -1,4 +1,6 @@
 capital_city ={'Nepal':'Kathmandu,'}
+capital_city["Japan"]="Tokyo"
+print("Updated Dictionary :",capital_city)
 print(capital_city ['Nepal'])
 Presidential_candidates ={'Azimio':'Raila','Kenya Kwanza':'Ruto','Roots Party':'Wajakoya'}
 
@@ -23,6 +25,7 @@ student_id='John,James,Joe'
 print(student_id,type(student_id))
 print('John' in student_id)
 print('brian' not in student_id)
+del student_id["John"]
 
 
 

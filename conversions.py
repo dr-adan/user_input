@@ -6,3 +6,6 @@ num_string='12'
 print(num_string,type(num_string))
 num_string=int(num_string)
 print(type(num_string))
+x=4
+print(x,type(x))
+

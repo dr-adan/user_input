@@ -15,3 +15,4 @@ num=input('Enter a number:')
 print('You entered number:',num)
 print(num,type(num))
 
+
